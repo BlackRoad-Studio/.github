@@ -29,10 +29,10 @@ jobs:
 
     steps:
       - name: 📥 Checkout Repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
 
       - name: 🔍 Initialize CodeQL
-        uses: github/codeql-action/init@v3
+        uses: github/codeql-action/init@ff0a06e83cb2de871e5a09832bc6a81e7276941f
         with:
           languages: ${{ matrix.language }}
           # Auto-build for compiled languages
@@ -40,12 +40,12 @@ jobs:
           queries: +security-and-quality
 
       - name: 🏗️ Autobuild
-        uses: github/codeql-action/autobuild@v3
+        uses: github/codeql-action/autobuild@ff0a06e83cb2de871e5a09832bc6a81e7276941f
         # Only needed for compiled languages like Java, C++, C#, Go, Swift
         # For JavaScript and Python, CodeQL analyzes without building
 
       - name: 🔒 Perform CodeQL Analysis
-        uses: github/codeql-action/analyze@v3
+        uses: github/codeql-action/analyze@ff0a06e83cb2de871e5a09832bc6a81e7276941f
         with:
           category: "/language:${{matrix.language}}"
 
@@ -61,7 +61,7 @@ jobs:
 
       - name: 📝 Create Issue on Failure
         if: failure()
-        uses: actions/github-script@v7
+        uses: actions/github-script@60a0d83039c74a4aee543508d2ffcb1c3799cdea
         with:
           script: |
             const issue = await github.rest.issues.create({
