@@ -1,44 +1,28 @@
 <div align="center">
-  <h1>🛣️ BlackRoad OS</h1>
-  <p><strong>Your AI. Your Hardware. Your Rules.</strong></p>
+  <h1>🎨 BlackRoad Studio</h1>
+  <p><strong>Creative tools. Built with AI. Free forever.</strong></p>
   <p>
-    <img src="https://img.shields.io/badge/Agents-30%2C000-FF1D6C?style=for-the-badge&logo=robot&logoColor=white"/>
-    <img src="https://img.shields.io/badge/Repos-1%2C825%2B-9C27B0?style=for-the-badge"/>
-    <img src="https://img.shields.io/badge/Orgs-17-2979FF?style=for-the-badge"/>
+    <img src="https://img.shields.io/badge/Canvas-Design%20Tool-FF1D6C?style=for-the-badge"/>
+    <img src="https://img.shields.io/badge/Video-Creator%20Editor-9C27B0?style=for-the-badge"/>
+    <img src="https://img.shields.io/badge/Writing-AI%20Powered-2979FF?style=for-the-badge"/>
   </p>
 </div>
 
-## Overview
+## What Lives Here
 
-BlackRoad OS is the infrastructure backbone for AI-first companies — powering 30,000+ concurrent AI agents across edge, cloud, and on-premise hardware.
+Creative production tools — design, video, writing — built on top of BlackRoad AI infrastructure.
 
-| Platform | Scale | Status |
-|----------|-------|--------|
-| AI Agents | 30,000 | ✅ Active |
-| Cloudflare Workers | 75+ | ✅ Active |
-| Raspberry Pi Fleet | 4 nodes | ✅ Active |
-| GitHub Actions | 50+ workflows | ✅ Active |
+| Repo | Description |
+|------|-------------|
+| [canvas-studio](https://github.com/BlackRoad-Studio/canvas-studio) | Design tool for everyone — graphics, presentations, social posts |
+| [video-studio](https://github.com/BlackRoad-Studio/video-studio) | Creator video editor with AI auto-captions |
+| [writing-studio](https://github.com/BlackRoad-Studio/writing-studio) | AI writing assistant with grammar, style, research |
+| [studio-core](https://github.com/BlackRoad-Studio/studio-core) | Shared studio tools and frameworks |
+| [templates](https://github.com/BlackRoad-Studio/templates) | Project templates and scaffolding |
 
-## Core Systems
+## Philosophy
 
-- **Tokenless Gateway** — All AI provider secrets live only here
-- **PS-SHA∞ Memory** — Hash-chained persistent AI memory  
-- **CECE Identity** — Portable AI identity across any provider
-- **30K Agent Mesh** — WebSocket + MQTT orchestration
-
-## Organizations
-
-| Org | Purpose |
-|-----|---------|
-| [BlackRoad-OS-Inc](https://github.com/BlackRoad-OS-Inc) | Core platform & gateway |
-| [BlackRoad-OS](https://github.com/BlackRoad-OS) | OS, web, docs, agents |
-| [BlackRoad-AI](https://github.com/BlackRoad-AI) | ML models & inference |
-| [BlackRoad-Cloud](https://github.com/BlackRoad-Cloud) | Infrastructure & K8s |
-| [BlackRoad-Security](https://github.com/BlackRoad-Security) | Security & compliance |
-
-## Brand
-
-Primary: `#FF1D6C` · Gradient: `#F5A623 → #FF1D6C → #9C27B0 → #2979FF`
+Every creative tool here is built on the belief that professional-grade creation should be **free, local-first, and AI-enhanced**. No subscriptions. Your files, your data.
 
 ---
-*© BlackRoad OS, Inc. All rights reserved. Proprietary — not open source.*
+*© BlackRoad OS, Inc. All rights reserved.*
