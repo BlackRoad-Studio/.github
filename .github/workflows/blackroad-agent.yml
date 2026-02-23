@@ -1,0 +1,24 @@
+name: 🤖 BlackRoad Shared Agent CI
+on:
+  push:
+    branches: [main, dev, master]
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  agent-identity:
+    name: Load Agent Identity
+    runs-on: [self-hosted, pi]
+    steps:
+      - uses: actions/checkout@v4
+      - name: Identify branch agent
+        run: |
+          BRANCH="${GITHUB_REF_NAME}"
+          curl -sf "https://raw.githubusercontent.com/BlackRoad-OS-Inc/blackroad/master/.agents/${BRANCH}.json" \
+            -o .agent-identity.json 2>/dev/null || \
+          echo "{\"agent\":\"BLACKROAD\",\"branch\":\"${BRANCH}\",\"role\":\"orchestrator\"}" > .agent-identity.json
+          AGENT=$(python3 -c "import json; print(json.load(open('.agent-identity.json')).get('agent','BLACKROAD'))")
+          echo "🤖 Agent: ${AGENT} | Org: ${{ github.repository_owner }} | Branch: ${BRANCH}"
+          echo "AGENT_NAME=${AGENT}" >> $GITHUB_ENV
+      - name: Health ping
+        run: echo "✅ ${AGENT_NAME} active in ${{ github.repository }}"
