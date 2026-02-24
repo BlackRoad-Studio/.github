@@ -43,7 +43,7 @@ jobs:
       security_issues: ${{ steps.security.outputs.count }}
 
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
 
       - name: Detect Package Managers
         id: detect
@@ -86,10 +86,10 @@ jobs:
     runs-on: [self-hosted, pi]
 
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
 
       - name: Setup Node
-        uses: actions/setup-node@v4
+        uses: actions/setup-node@1d0ff469b7ec7b3cb9d8673fde0c81c44821de2a
         with:
           node-version: '20'
 
@@ -199,7 +199,7 @@ jobs:
     runs-on: [self-hosted, pi]
 
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
 
       - name: Setup Python
         uses: actions/setup-python@v5
