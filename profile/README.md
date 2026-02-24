@@ -1,28 +1,38 @@
 <div align="center">
-  <h1>🎨 BlackRoad Studio</h1>
-  <p><strong>Creative tools. Built with AI. Free forever.</strong></p>
-  <p>
-    <img src="https://img.shields.io/badge/Canvas-Design%20Tool-FF1D6C?style=for-the-badge"/>
-    <img src="https://img.shields.io/badge/Video-Creator%20Editor-9C27B0?style=for-the-badge"/>
-    <img src="https://img.shields.io/badge/Writing-AI%20Powered-2979FF?style=for-the-badge"/>
-  </p>
+
+# 🎨 BlackRoad Studio
+
+### Design. Create. Launch.
+
+Creative tools for design, 3D modeling, audio production, and video — the full creative stack in one place.
+
+[![Platform](https://img.shields.io/badge/Platform-blackroad.io-FF1D6C?style=for-the-badge)](https://blackroad.io)
+[![Agents](https://img.shields.io/badge/AI_Agents-30%2C000-9C27B0?style=for-the-badge)](https://agents.blackroad.io)
+[![Cost](https://img.shields.io/badge/AI_Cost-%240-F5A623?style=for-the-badge)](https://blackroad.io)
+
 </div>
 
-## What Lives Here
+---
 
-Creative production tools — design, video, writing — built on top of BlackRoad AI infrastructure.
+## 🎯 Focus Areas
 
-| Repo | Description |
-|------|-------------|
-| [canvas-studio](https://github.com/BlackRoad-Studio/canvas-studio) | Design tool for everyone — graphics, presentations, social posts |
-| [video-studio](https://github.com/BlackRoad-Studio/video-studio) | Creator video editor with AI auto-captions |
-| [writing-studio](https://github.com/BlackRoad-Studio/writing-studio) | AI writing assistant with grammar, style, research |
-| [studio-core](https://github.com/BlackRoad-Studio/studio-core) | Shared studio tools and frameworks |
-| [templates](https://github.com/BlackRoad-Studio/templates) | Project templates and scaffolding |
+`Design Tools` • `3D Modeling` • `Audio` • `Video`
 
-## Philosophy
+## 🔗 Links
 
-Every creative tool here is built on the belief that professional-grade creation should be **free, local-first, and AI-enhanced**. No subscriptions. Your files, your data.
+| | |
+|---|---|
+| 🌐 **Website** | [blackroad-studio.github.io](https://blackroad-studio.github.io) |
+| 📖 **Docs** | [docs.blackroad.io](https://docs.blackroad.io) |
+| 💬 **Status** | [status.blackroad.io](https://status.blackroad.io) |
+| 🤖 **Agents** | [agents.blackroad.io](https://agents.blackroad.io) |
 
 ---
+
+<div align="center">
+
+**Part of [BlackRoad OS](https://blackroad.io)** — 30,000 AI Agents • 17 Organizations • 1,800+ Repos • $0 AI Cost
+
 *© BlackRoad OS, Inc. All rights reserved.*
+
+</div>
