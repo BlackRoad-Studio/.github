@@ -72,7 +72,7 @@ jobs:
     needs: health
     timeout-minutes: 360  # 6 hour GitHub limit — we exit at 5h55m and re-chain
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
       
       - name: "Run work loop (5h 55min then re-chain)"
         run: |
@@ -110,7 +110,7 @@ jobs:
 
       - name: "Trigger next chain link (+3 seconds)"
         if: env.MODE == 'perpetual'
-        uses: actions/github-script@v7
+        uses: actions/github-script@60a0d83039c74a4aee543508d2ffcb1c3799cdea
         with:
           script: |
             // Wait 3 seconds then fire next chain
@@ -136,7 +136,7 @@ jobs:
     runs-on: [self-hosted, blackroad-fleet]
     needs: health
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
       
       - name: "Cross-org sync check"
         run: |
