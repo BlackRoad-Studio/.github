@@ -14,7 +14,7 @@ jobs:
     name: "Configure Alice nginx domains"
     runs-on: [self-hosted, alice]
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
       - name: Deploy nginx config
         run: |
           sudo tee /etc/nginx/sites-available/blackroad-domains > infra/nginx/blackroad-domains.conf || true
@@ -25,7 +25,7 @@ jobs:
     name: "Deploy Caddy on Aria"
     runs-on: [self-hosted, aria]
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
       - name: Configure Caddy
         run: |
           sudo mkdir -p /etc/caddy
