@@ -11,6 +11,7 @@ jobs:
       GH_TOKEN: ${{ secrets.GH_PAT || secrets.GITHUB_TOKEN }}
     steps:
       - name: Check & restart Pi agent tasks
+        continue-on-error: true
         run: |
           REPO="${{ github.repository }}"
           
@@ -23,7 +24,7 @@ jobs:
           if [ "$RUNNING" -eq "0" ]; then
             echo "⚠️ No active pi-agent-tasks — re-triggering..."
             sleep 3
-            gh workflow run pi-agent-tasks.yml --repo "$REPO" -f task=health-check 2>/dev/null
+            gh workflow run pi-agent-tasks.yml --repo "$REPO" -f task=health-check 2>/dev/null || echo "Note: pi-agent-tasks dispatch skipped"
             echo "✅ pi-agent-tasks triggered"
           fi
           
