@@ -13,7 +13,7 @@ jobs:
     name: Scan for secrets
     runs-on: [self-hosted, pi]
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
         with:
           fetch-depth: 0
 
@@ -50,7 +50,7 @@ jobs:
     name: Dependency audit
     runs-on: [self-hosted, pi]
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
 
       - name: Node.js audit
         if: hashFiles('package.json') != ''
@@ -69,7 +69,7 @@ jobs:
     name: Shell script lint
     runs-on: [self-hosted, pi]
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
       - name: ShellCheck
         run: |
           which shellcheck || (apt-get install -y shellcheck 2>/dev/null || brew install shellcheck 2>/dev/null || true)
