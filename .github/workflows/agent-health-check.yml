@@ -7,7 +7,7 @@ jobs:
   health-check:
     runs-on: [self-hosted, pi]
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
       - name: Check Pi tunnel
         run: |
           STATUS=$(curl -s -o /dev/null -w "%{http_code}" https://api.blackroad.io/health 2>/dev/null || echo "000")
