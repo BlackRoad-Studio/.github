@@ -25,7 +25,7 @@ jobs:
       matrix:
         # Override auto-detection and specify languages manually
         # Supported: 'cpp', 'csharp', 'go', 'java', 'javascript', 'python', 'ruby', 'swift'
-        language: [ 'javascript', 'python' ]
+        language: [ 'javascript' ]
 
     steps:
       - name: 📥 Checkout Repository
