@@ -20,7 +20,7 @@ jobs:
       CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
       CF_ACCOUNT_ID: ${{ secrets.CF_ACCOUNT_ID }}
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
       
       - name: Setup Node 20 + Wrangler
         run: |
