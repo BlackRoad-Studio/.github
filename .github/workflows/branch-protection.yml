@@ -13,7 +13,7 @@ jobs:
   protect-branches:
     runs-on: [self-hosted, pi, blackroad]
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
       - name: Apply branch protection to all orgs
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
