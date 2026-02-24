@@ -20,7 +20,7 @@ jobs:
     name: "🌐 Setup Nginx on ${{ inputs.node || 'cecilia' }}"
     runs-on: [self-hosted, pi, "${{ inputs.node || 'cecilia' }}"]
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
 
       - name: Install nginx (passwordless via runner)
         run: |
