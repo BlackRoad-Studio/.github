@@ -32,7 +32,7 @@ jobs:
       TASK: ${{ github.event.inputs.task || 'health-check' }}
       NODE: ${{ github.event.inputs.node || 'all' }}
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
 
       - name: Health Check All Nodes
         if: env.TASK == 'health-check' || env.TASK == 'full-sync'
