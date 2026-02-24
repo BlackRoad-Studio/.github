@@ -9,7 +9,7 @@ jobs:
     runs-on: [self-hosted, pi]
     timeout-minutes: 10
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
 
       - name: Fleet status report
         id: fleet
@@ -62,7 +62,7 @@ jobs:
 
       - name: Alert on critical issues
         if: steps.fleet.outputs.offline > 2
-        uses: actions/github-script@v7
+        uses: actions/github-script@60a0d83039c74a4aee543508d2ffcb1c3799cdea
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
           script: |
