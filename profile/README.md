@@ -1,38 +1,34 @@
 <div align="center">
 
-# 🎨 BlackRoad Studio
+# BlackRoad Studio
 
-### Design. Create. Launch.
+**Creative tools — canvas, video, writing, and template design.**
 
-Creative tools for design, 3D modeling, audio production, and video — the full creative stack in one place.
-
-[![Platform](https://img.shields.io/badge/Platform-blackroad.io-FF1D6C?style=for-the-badge)](https://blackroad.io)
-[![Agents](https://img.shields.io/badge/AI_Agents-30%2C000-9C27B0?style=for-the-badge)](https://agents.blackroad.io)
-[![Cost](https://img.shields.io/badge/AI_Cost-%240-F5A623?style=for-the-badge)](https://blackroad.io)
+[![Website](https://img.shields.io/badge/blackroad--studio.github.io-000?style=flat-square&logo=github)](https://blackroad-studio.github.io)
 
 </div>
 
 ---
 
-## 🎯 Focus Areas
+## Repositories
 
-`Design Tools` • `3D Modeling` • `Audio` • `Video`
-
-## 🔗 Links
-
-| | |
+| Repository | Description |
 |---|---|
-| 🌐 **Website** | [blackroad-studio.github.io](https://blackroad-studio.github.io) |
-| 📖 **Docs** | [docs.blackroad.io](https://docs.blackroad.io) |
-| 💬 **Status** | [status.blackroad.io](https://status.blackroad.io) |
-| 🤖 **Agents** | [agents.blackroad.io](https://agents.blackroad.io) |
+| [canvas-studio](https://github.com/BlackRoad-Studio/canvas-studio) | 🎨 Canvas Studio - Design tool for everyone. Create graphics, presentations, social media posts. Better than Canva, free forever. |
+| [video-studio](https://github.com/BlackRoad-Studio/video-studio) | Video Studio - Creator video editor with timeline editing, AI auto-captions, and effects. /mo. |
+| [writing-studio](https://github.com/BlackRoad-Studio/writing-studio) | Writing Studio - Content creation platform with AI-powered writing assistance, grammar, style, and research tools. |
+| [studio-core](https://github.com/BlackRoad-Studio/studio-core) | Core studio tools and frameworks |
+| [templates](https://github.com/BlackRoad-Studio/templates) | Project templates and scaffolding tools |
+
+<details>
+<summary>Archived</summary>
+
+| Repository | Description |
+|---|---|
+
+
+</details>
 
 ---
 
-<div align="center">
-
-**Part of [BlackRoad OS](https://blackroad.io)** — 30,000 AI Agents • 17 Organizations • 1,800+ Repos • $0 AI Cost
-
-*© BlackRoad OS, Inc. All rights reserved.*
-
-</div>
+<sub>BlackRoad OS, Inc. — [blackroad.io](https://blackroad.io)</sub>
