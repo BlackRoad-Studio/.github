@@ -1,34 +1,25 @@
-<div align="center">
-
 # BlackRoad Studio
 
-**Creative tools — canvas, video, writing, and template design.**
-
-[![Website](https://img.shields.io/badge/blackroad--studio.github.io-000?style=flat-square&logo=github)](https://blackroad-studio.github.io)
-
-</div>
+**A division of [BlackRoad OS, Inc.](https://github.com/BlackRoad-OS-Inc) — Proprietary Software**
 
 ---
 
-## Repositories
+## About
 
-| Repository | Description |
-|---|---|
-| [canvas-studio](https://github.com/BlackRoad-Studio/canvas-studio) | 🎨 Canvas Studio - Design tool for everyone. Create graphics, presentations, social media posts. Better than Canva, free forever. |
-| [video-studio](https://github.com/BlackRoad-Studio/video-studio) | Video Studio - Creator video editor with timeline editing, AI auto-captions, and effects. /mo. |
-| [writing-studio](https://github.com/BlackRoad-Studio/writing-studio) | Writing Studio - Content creation platform with AI-powered writing assistance, grammar, style, and research tools. |
-| [studio-core](https://github.com/BlackRoad-Studio/studio-core) | Core studio tools and frameworks |
-| [templates](https://github.com/BlackRoad-Studio/templates) | Project templates and scaffolding tools |
+BlackRoad Studio is the creative tools division of BlackRoad OS. BlackRoad Studio builds creative software — canvas design, video editing, writing tools, and template systems. Professional creative tools that run on your terms, not someone else's subscription.
 
-<details>
-<summary>Archived</summary>
+All repositories in this organization are proprietary to BlackRoad OS, Inc. Source code is publicly visible for transparency. Commercial use, forking, and redistribution are prohibited.
 
-| Repository | Description |
-|---|---|
+## Parent Organization
 
+This division operates under [BlackRoad-OS-Inc](https://github.com/BlackRoad-OS-Inc), the corporate root of the BlackRoad ecosystem. See the parent org for the full technology stack, product catalog, and organizational structure.
 
-</details>
+## License
+
+Proprietary — BlackRoad OS, Inc. See individual repositories for license terms.
 
 ---
 
-<sub>BlackRoad OS, Inc. — [blackroad.io](https://blackroad.io)</sub>
+**BlackRoad OS — Pave Tomorrow.**
+
+*Copyright 2024-2026 BlackRoad OS, Inc. All Rights Reserved.*
