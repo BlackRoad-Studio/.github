@@ -1,20 +1,19 @@
 # BlackRoad-Studio
 
-**Creative tools, design, brand**
+**Creative tools** — Part of the BlackRoad OS ecosystem.
 
-Part of [BlackRoad OS](https://blackroad.io) — sovereign infrastructure built from bare metal up.
+> 18 orgs · 20 domains · 200 agents · Sovereign infrastructure
+
+10 public repositories | [blackroad.io](https://blackroad.io) | [BlackRoad-OS-Inc](https://github.com/BlackRoad-OS-Inc)
+
+## Key Repositories
+
+- [.github](https://github.com/BlackRoad-Studio/.github) — Creator tools: canvas, video, writing studio — downstream from BlackRoad-OS-Inc[0:60]
+- [blackroad-studio.github.io](https://github.com/BlackRoad-Studio/blackroad-studio.github.io) — BlackRoad OS GitHub Pages[0:60]
+- [chrome-extension](https://github.com/BlackRoad-Studio/chrome-extension) — chrome-extension — BlackRoad Studio[0:60]
+- [voice-chat-widget](https://github.com/BlackRoad-Studio/voice-chat-widget) — voice-chat-widget — BlackRoad Studio[0:60]
+- [blackroad-garage](https://github.com/BlackRoad-Studio/blackroad-garage) — blackroad-garage — BlackRoad-Studio. Proprietary BlackRoad OS, Inc.[0:60]
 
 ---
 
-| | |
-|---|---|
-| **Parent** | [BlackRoad OS, Inc.](https://github.com/BlackRoad-OS-Inc) |
-| **Website** | [blackroad.io](https://blackroad.io) |
-| **Search** | [search.blackroad.io](https://search.blackroad.io) |
-| **Org Page** | [blackroad-studio.github.io](https://blackroad-studio.github.io) |
-
----
-
-> Built by [Alexa Amundson](https://blackroad.me). Delaware C-Corp. Founded November 2025.
-> 
-> 23 orgs · 2,280+ repos · 29 languages · 7 nodes · 52 TOPS
+Proprietary — BlackRoad OS, Inc. All rights reserved.
