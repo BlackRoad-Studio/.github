@@ -1,19 +1,16 @@
 # BlackRoad-Studio
 
-**Creative tools** — Part of the BlackRoad OS ecosystem.
+**BlackRoad Studio — creative tools. Canvas, video, writing studio. Pave Tomorrow.**
 
-> 18 orgs · 20 domains · 200 agents · Sovereign infrastructure
+> Remember the Road. Pave Tomorrow.
 
-10 public repositories | [blackroad.io](https://blackroad.io) | [BlackRoad-OS-Inc](https://github.com/BlackRoad-OS-Inc)
+BlackRoad OS, Inc. — Delaware C-Corp, incorporated November 17, 2025.
 
-## Key Repositories
+12 public repositories | [blackroad.io](https://blackroad.io) | [BlackRoad-OS-Inc](https://github.com/BlackRoad-OS-Inc)
 
-- [.github](https://github.com/BlackRoad-Studio/.github) — Creator tools: canvas, video, writing studio — downstream from BlackRoad-OS-Inc[0:60]
-- [blackroad-studio.github.io](https://github.com/BlackRoad-Studio/blackroad-studio.github.io) — BlackRoad OS GitHub Pages[0:60]
-- [chrome-extension](https://github.com/BlackRoad-Studio/chrome-extension) — chrome-extension — BlackRoad Studio[0:60]
-- [voice-chat-widget](https://github.com/BlackRoad-Studio/voice-chat-widget) — voice-chat-widget — BlackRoad Studio[0:60]
-- [blackroad-garage](https://github.com/BlackRoad-Studio/blackroad-garage) — blackroad-garage — BlackRoad-Studio. Proprietary BlackRoad OS, Inc.[0:60]
+18 orgs · 20 domains · 200 agents · 2,156 repos · Sovereign infrastructure
 
 ---
 
-Proprietary — BlackRoad OS, Inc. All rights reserved.
+Proprietary — BlackRoad OS, Inc. All rights reserved. Incorporated 2025.
+
